@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vw;
+  background-color: rgb(8, 8, 109);
+
+}
+
+.App {
+  width: 25vw;
+  height: 35vw;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #235ae5b5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  padding-block: 14vw;
+}
+
+form {
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+input{
+  width: 20vw;
+  height: 3vw;
+  border: none;
+  padding-inline: 1.3vw;
+  border-radius: 5px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+button {
+  width: 20vw;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.success{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alert{
+  color: red;
+}
+
